@@ -1,0 +1,162 @@
+/* Body */
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  margin: 0;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.logo span {
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+nav span a{
+  color: seashell;
+}
+
+/* Mission */
+.mission{
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.missiontext{
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+/*featured teas*/
+
+.feature-item img{
+  width: 300px;
+  height: 200px;
+}
+
+.features-container{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+}
+
+.feature{
+  align-content: center;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0px;
+}
+
+.feature-item{
+  align-content: center;
+  padding: 10px;
+}
+
+.feature-item h4{
+  margin: 0px;
+  padding-top: 10px;
+}
+
+/*Locations*/
+
+.locations h2{
+  padding-top: 90px;
+  margin: 0px;
+}
+
+.locations{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 70px auto;
+}
+
+.locations-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1100px;
+  margin: auto;
+  padding: 15px;
+}
+
+.location{
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1;
+  align-items: center;
+  margin: 20px;
+  padding: 0px;
+  width: 300px;
+}
+
+/* Contact */
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  padding-top: 70px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
